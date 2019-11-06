@@ -19,6 +19,7 @@ header .header-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: fixed;
 }
 
 header .header.container .top {
@@ -27,6 +28,11 @@ header .header.container .top {
 
 header .header.container .bottom {
     align-self: flex-end;
+}
+
+main {
+    position: absolute;
+    right: 0;
 }
 
 .navbar{
@@ -71,7 +77,6 @@ header .header.container .bottom {
 
 .player {
   background-color: #333;
-  overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
