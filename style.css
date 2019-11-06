@@ -44,17 +44,19 @@ header .header.container .bottom {
 .jumbo {
     display: flex;
     width: 87.5vw;
-    height: 60vh;
     background-color: lightgreen;
     flex-wrap: wrap;
     align-content: space-evenly;
     justify-content: space-between;
-    padding: 0 250px;
+    padding: 0 15%;
+    min-height: 160vh;
 }
 
 .jumbo .title {
-    margin-left: 5%;
+    margin-left: 3%;
     width: 100%;
+    margin-top:;
+    align-content: center;
 }
 
 .quad  {
@@ -65,4 +67,12 @@ header .header.container .bottom {
     text-align: center;
     line-height: 100px;
     margin: 0 20px;
+}
+
+.player {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
