@@ -6,13 +6,14 @@
 
 body {
     display: flex;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* HEADER */
-/* HEADER */
-/* HEADER */
+/* ASIDE */
+/* ASIDE */
+/* ASIDE */
 
-header .header-container {
+aside .header-container {
     width: 12.5vw;
     height: 100vh;
     background-color: grey;
@@ -22,18 +23,26 @@ header .header-container {
     position: fixed;
 }
 
-header .header.container .top {
+aside .header.container .top {
     align-self: flex-start;
 }
 
-header .header.container .bottom {
+aside .header.container .bottom {
     align-self: flex-end;
 }
+
+/* MAIN */
+/* MAIN */
+/* MAIN */
 
 main {
     position: absolute;
     right: 0;
 }
+
+/* MAIN - NAVBAR */
+/* MAIN - NAVBAR */
+/* MAIN - NAVBAR */
 
 .navbar{
     width: 87.5vw;
@@ -47,6 +56,10 @@ main {
     margin: 20px 20px;
 }
 
+/* MAIN -JUMBOTRON */
+/* MAIN -JUMBOTRON */
+/* MAIN -JUMBOTRON */
+
 .jumbo {
     display: flex;
     width: 87.5vw;
@@ -54,26 +67,38 @@ main {
     flex-wrap: wrap;
     align-content: space-evenly;
     justify-content: space-between;
-    padding: 0 15%;
-    min-height: 160vh;
+    padding: 0 13%;
+    min-height: 180vh;
 }
 
-.jumbo .title {
+.jumbo .title-space {
     margin-left: 3%;
     width: 100%;
-    margin-top:;
+    margin: -19% 0 -5%;
     align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
-.quad  {
+.img-space {
     background-color: orange;
-    width: 120px;
-    height: 120px;
+    height: ;
     border-radius: 50px;
     text-align: center;
     line-height: 100px;
-    margin: 0 20px;
+    margin: -32% 1% 0%;
 }
+
+img {
+    max-width: 10vw;
+    border-radius: 150px;
+    margin-bottom: -80px;
+}
+
+/* PLAYER */
+/* PLAYER */
+/* PLAYER */
 
 .player {
   background-color: #333;
