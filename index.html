@@ -16,8 +16,8 @@
                     <div class="top">
                         <h3><a href="#"><i class="fab fa-spotify fa-2x"></i><span>Spotify</span></a>
                         </h3>
-                        <p class="opaque fs-80"><i class="fas fa-search lighter"></i><span class="ml-5">Cerca</span></p>
-                        <p class="mt-5 opaque fs-80"><i class="fas fa-home"></i><span class="ml-5">Home</span></p>
+                        <p class="opaque fs-80"><i class="fas fa-search lighter"></i><span class="hidden-xs ml-5">Cerca</span></p>
+                        <p class="mt-5 fs-80"><i class="fas fa-home"></i><span class="ml-5">Home</span></p>
                         <p class="mt-5 opaque fs-80"><i class="fas fa-book"></i><span class="ml-5">La Tua Libreria</span></p>
                         <p class="uppercase mt-15 fs-68 opaque">Ascoltati di recente</p>
                         <p class="opaque fs-68 mt-5">Josh Hild</p>
@@ -28,7 +28,7 @@
                     <div class="bottom">
                         <p class="fs-68 opaque"><i class="far fa-arrow-alt-circle-down"></i><span class="ml-5">Install App</span> </p>
                         <hr class="mt-5 pl-5 opaque">
-                        <p class="mt-10"><i class="far fa-user"></i><span class="fs-80 ml-5">Gianfranco</span></p>
+                        <p class="mt-10"><i class="far fa-user"></i><span class="fs-80 ml-5">NicoNico92</span></p>
                     </div>
                 </div>
             </aside>
@@ -114,9 +114,32 @@
         </main>
 
         <div class="player">
-            <p><img src="Images/Ike Natividad.jpeg" alt="">Verba volant</p>
-            <p>barra play</p>
-            <p>volume</p>
+            <div class="left">
+
+            <img src="Images/Ike Natividad.jpeg" alt="">
+            <p class="top-p fs-68">Ike Natividad</p>
+            <p class="bottom-p opaque">Verba Volant</p>
+            <p class="left-p fs-68 opaque"><i class="far fa-heart"></i></p>
+            </div>
+
+            <div class="central">
+                <h1>Round Range Slider</h1>
+
+                <div class="player-slide-container">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <p> <span id="demo"></span></p>
+                </div>
+            </div>
+
+            <div class="right">
+                <h1>Round Range Slider</h1>
+
+                <div class="volume-slide-container">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <p> <span id="demo"></span></p>
+                </div>
+            </div>
+
         </div>
     </body>
 </html>
